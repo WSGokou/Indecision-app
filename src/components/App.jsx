@@ -1,5 +1,5 @@
-import "../styles/index.scss";
 import Recipes from "./Recipes";
+import "../styles/index.scss";
 
 const App = () => {
   return (
@@ -7,10 +7,10 @@ const App = () => {
       <section className="hero"></section>
       <main>
         <section>
-          <h1>Hi there in React</h1>
+          <h1>React Project</h1>
+          <Recipes />
         </section>
       </main>
-      <Recipes />
     </>
   );
 };

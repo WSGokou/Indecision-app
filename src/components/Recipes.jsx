@@ -9,13 +9,13 @@ const elvenShieldRecipe = {
 const elvenGauntletsRecipe = {
   ...elvenShieldRecipe,
   leather: 1,
-  refinedMoonstone: 5,
+  refinedMoonstone: 1,
 };
 console.log(elvenShieldRecipe);
 console.log(elvenGauntletsRecipe);
 
 const Recipes = () => {
-  const [recipe, setRecipe] = useState(elvenShieldRecipe);
+  const [recipe, setRecipe] = useState({});
 
   return (
     <div>
