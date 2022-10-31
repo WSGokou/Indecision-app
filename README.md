@@ -3,4 +3,4 @@
 ## Technology Stack & Tools
 
 - Javascript (React)
-- [Netlify](https://www.netlify.com) (Website Deployment)
+- [Netlify](https://rngeez.netlify.app) (Website Deployment)
